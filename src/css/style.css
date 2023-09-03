@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Cyclone';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/Cyclone.woff2') format('woff2');
+}
+
+.hello {
+	background: url('../icon.png') no-repeat center center;
+	color: red;
+	font-family: 'Cyclone';
+	font-size: 8rem;
+	font-weight: bold;
+}
