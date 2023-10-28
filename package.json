@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --progress --mode=production",
     "dev": "webpack --progress --mode=development",
-    "serve": "webpack serve --progress --mode=development"
+    "serve": "webpack serve --progress --mode=development",
+    "watch-sass": "sass --watch src/css/sass/style.scss src/css/style.css"
   },
   "keywords": [],
   "author": "cycl0n3",
@@ -20,11 +21,14 @@
     "csv-loader": "^3.0.5",
     "html-webpack-plugin": "^5.5.3",
     "json5": "^2.2.3",
+    "sass": "^1.69.4",
+    "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
     "toml": "^3.0.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.10.0",
     "xml-loader": "^1.2.1",
     "yamljs": "^0.3.0"
   },

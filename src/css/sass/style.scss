@@ -1,0 +1,30 @@
+$base-example: black;
+
+@font-face {
+	font-family: 'Cyclone';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../assets/fonts/Cyclone.woff2') format('woff2');
+}
+
+.container {
+  align-items: center;
+  background: url('../assets/images/background.jpg') center / cover no-repeat;
+  color: red;
+  display: flex;
+	gap: 1rem;
+  padding: 1rem;
+  flex-direction: column;
+  font-family: 'Cyclone';
+  font-size: 8rem;
+  font-weight: bold;
+  justify-content: center;
+  text-shadow: 0 0 1px red;
+
+  h3 {
+    margin: 0;
+    font-size: 10rem;
+  }
+}
+
+
